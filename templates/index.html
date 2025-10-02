@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Two Numbers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Add Two Numbers</h2>
+    <form method="POST">
+        <input type="text" name="num1" placeholder="Enter first number" required>
+        <input type="text" name="num2" placeholder="Enter second number" required>
+        <button type="submit">Add</button>
+    </form>
+    {% if result != '' %}
+        <h3>Result: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
