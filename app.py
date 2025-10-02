@@ -14,5 +14,4 @@ def index():
             result = 'Invalid input! Please enter numbers only.'
     return render_template('index.html', result=result)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# Removed the app.run() block for Azure deployment
