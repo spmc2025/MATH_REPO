@@ -18,5 +18,5 @@ steps:
   inputs:
     azureSubscription: '<YOUR_AZURE_SERVICE_CONNECTION>'
     appType: 'webApp'
-    appName: 'math-addition-app'
+    appName: 'MATH_REPO'
     package: '$(System.DefaultWorkingDirectory)'
